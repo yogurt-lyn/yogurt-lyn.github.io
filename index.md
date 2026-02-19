@@ -1,9 +1,10 @@
 ---
-layout: splash
+layout: single
 permalink: /
+author_profile: true 
 header:
   overlay_color: "#5e616c"
-  overlay_image: assets/images/banner.jpg  # 取消注释，确保有这个图片
+  overlay_image: "assets/images/banner.jpg"
 excerpt: 'Ph.D. Student at Tongji University<br>'
 ---
 
