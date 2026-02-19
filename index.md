@@ -1,7 +1,10 @@
 ---
-layout: single
-author_profile: true
+layout: single         
 permalink: /
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/banner.jpg  
+author_profile: true
 title: "About Me"
 ---
 
@@ -11,7 +14,5 @@ My research focuses on **Medical Image Analysis** and **Deep Learning**. I am fo
 
 ## Research Interests
 
-- 🧠 **Medical Image Analysis**: CXR report generation, multi-modal learning
+- 🏥 **Medical Image Analysis**: CXR report generation, multi-modal learning
 - 🤖 **Deep Learning**: MLLM,SFT...
-- 🏥 **Clinical AI**: Disease diagnosis
-
