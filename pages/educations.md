@@ -9,7 +9,7 @@ author_profile: true
 
 ### Tongji University
 **Ph.D. in Software Engineering
-*Sep 2025 - Present*  
+*Sep 2024 - Present*  
 - Advisor: Ye Luo
 - Research Focus: Medical Image Analysis, MLLM
 
