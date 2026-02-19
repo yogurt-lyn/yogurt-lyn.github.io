@@ -23,7 +23,7 @@ remote_theme: academicpages/academicpages.github.io
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "assets/images/lynne.jpg"
+  avatar           : "images/lynne.jpg"
   name             : "Yinan Liu"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student @ Tongji University"
