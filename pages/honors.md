@@ -3,6 +3,9 @@ permalink: /honors/
 title: "Honors and Awards"
 layout: single
 author_profile: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: "banner.jpg"
 ---
 
 ## 🏆 Honors and Awards
