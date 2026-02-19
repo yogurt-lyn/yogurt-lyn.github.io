@@ -15,9 +15,3 @@ My research focuses on **Medical Image Analysis** and **Deep Learning**. I am fo
 - 🤖 **Deep Learning**: MLLM,SFT...
 - 🏥 **Clinical AI**: Disease diagnosis
 
-## 📬 Contact
-
-- 📧 Email: 2411500@tongji.edu.cn
-- 🐙 GitHub: [yogurt-lyn](https://github.com/yogurt-lyn)
-- 🎓 Google Scholar: [Profile](https://scholar.google.com/citations?user=GSBfG3MAAAAJ&hl=en)
-- 📍 Location: Shanghai, China
