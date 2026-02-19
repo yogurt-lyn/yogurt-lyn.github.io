@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-redirect-from", "~> 0.16"
   gem "jemoji", "~> 0.13"
+  gem "jekyll-include-cache" 
 end
 
 gem 'bigdecimal', '~> 3.1'
@@ -22,7 +23,5 @@ gem 'strscan', '~> 3.0'
 
 gem "ffi", "~> 1.15"
 gem 'base64', '~> 0.2'
-gem 'bigdecimal', '~> 3.1'
-gem 'csv', '~> 3.3'
 gem 'erb', '~> 4.0'
 gem 'mutex_m', '~> 0.2'
