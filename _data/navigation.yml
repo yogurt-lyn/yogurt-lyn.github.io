@@ -10,9 +10,6 @@
 main:
   - title: "Homepage"
     url: /
-    
-  - title: "About Me"
-    url: /about/
         
   - title: "Publications"
     url: /publications/
