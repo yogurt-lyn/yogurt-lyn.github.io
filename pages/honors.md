@@ -1,5 +1,5 @@
 ---
-permalink: [/honors/](https://yogurt-lyn.github.io/honors/)
+permalink: https://yogurt-lyn.github.io/honors/
 title: "Honors and Awards"
 layout: single
 author_profile: true
