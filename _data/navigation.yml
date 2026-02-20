@@ -16,6 +16,9 @@ main:
   - title: "Publications"
     url: /publications/
     
+  - title: "Patents"
+  url: "/patents/"
+    
   - title: "Educations"
     url: /educations/
     
