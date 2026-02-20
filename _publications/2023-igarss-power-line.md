@@ -1,6 +1,7 @@
 ---
 title: "Power Line Detection Based on Maxtree and Graph Signal Processing"
 collection: publications
+share: false
 category: manuscripts
 permalink: /publication/2023-igarss-power-line
 excerpt: 'A power line detection method based on Maxtree for UAV aerial images, using graph signal processing framework with two-stage filtering.'
