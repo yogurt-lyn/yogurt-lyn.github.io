@@ -5,9 +5,8 @@ layout: single
 author_profile: true
 ---
 
-{% if author.googlescholar %}
   <div class="wordwrap">You can also find me in <a href="{{author.googlescholar}}">Google Scholar</a>.</div>
-{% endif %}
+
 
 ## Journal Papers
 
