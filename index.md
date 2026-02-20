@@ -5,7 +5,6 @@ author_profile: true
 header:
   overlay_color: "#5e616c"
   overlay_image: "banner.jpg"
-excerpt: 'Ph.D. Student at Tongji University<br>'
 ---
 
     Hi! I am Yinan Liu (刘易楠), a Ph.D. Student at Tongji University, Shanghai, China.
