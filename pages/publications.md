@@ -1,5 +1,5 @@
 ---
-permalink: /publications/
+permalink: https://yogurt-lyn.github.io/publications/
 title: "Publications"
 layout: single
 author_profile: true
