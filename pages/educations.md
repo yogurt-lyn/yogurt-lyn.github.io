@@ -1,5 +1,5 @@
 ---
-permalink: /educations/
+permalink: https://yogurt-lyn.github.io/educations/
 title: "Educations"
 layout: single
 author_profile: true
