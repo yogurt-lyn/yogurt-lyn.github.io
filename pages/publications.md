@@ -9,9 +9,9 @@ author_profile: true
   <div class="wordwrap">You can also find me in <a href="{{author.googlescholar}}">Google Scholar</a>.</div>
 {% endif %}
 
-## 📝 Journal Papers
+## Journal Papers
 
-## 🎤 Conference Papers
+## Conference Papers
 
 ---
 
