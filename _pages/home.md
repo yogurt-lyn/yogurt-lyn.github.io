@@ -1,51 +1,125 @@
 ---
-layout: page
+layout: single
 title: "Yinan Liu"
+excerpt: ""
 permalink: /
 ---
 
-<nav style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 30px; flex-wrap: wrap;">
-  <a href="#about">About</a>
-  <a href="#publications">Publications</a>
-  <a href="#educations">Education</a>
-  <a href="#internships">Internships</a>
-  <a href="#honors">Honors</a>
-</nav>
+<style>
+/* Custom homepage styles */
+.page__content h1 { 
+  border-bottom: 2px solid #e5e5e5; 
+  padding-bottom: 4px; 
+  margin-top: 1.7em;
+  margin-bottom: 0.45em;
+}
+.page__content h1:first-of-type { 
+  margin-top: 0.45em !important; 
+}
+.page__content { 
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 1.00em; 
+}
+.page__content p, .page__content li, .page__content div { 
+  font-family: "Times New Roman", Times, serif; 
+}
+.page__content h1, .page__content h2, .page__content h3 { 
+  font-family: "Times New Roman", Times, serif; 
+  font-weight: 700; 
+  color: #222; 
+}
+.page__content h1 { 
+  border-left: 4px solid #2a72d4; 
+  padding-left: 12px; 
+  background: linear-gradient(to right, rgba(42,114,212,0.08), transparent); 
+  border-radius: 4px; 
+}
+.pub-item { 
+  background: #f8fafc; 
+  padding: 15px; 
+  border-radius: 8px; 
+  margin-bottom: 12px; 
+  border-left: 4px solid #4a6cf7; 
+}
+.contact-list li { 
+  margin-bottom: 6px; 
+}
+</style>
 
-<h2 id="about">👋 About Me</h2>
-<p>Hi! I am <strong>Yinan Liu (刘易楠)</strong>, a Ph.D. student at <strong>Tongji University</strong>, Shanghai, China.</p>
-<p>My research focuses on <strong>Medical Image Analysis</strong> and <strong>Multimodal Large Language Models</strong>.</p>
+<h1 id="about-me">😊 About Me</h1>
 
-<h2 id="educations">🎓 Education</h2>
+<p>Hi! I am <strong>Yinan Liu (刘易楠)</strong>, a Ph.D. Student at <strong>Tongji University</strong>, Shanghai, China.</p>
+
+<p>My research focuses on <strong>Medical Image Analysis</strong> and <strong>Multimodal Large Language Models (MLLM)</strong> for clinical diagnosis assistance. I am fortunate to be advised by <strong>Ye Luo</strong>.</p>
+
+<hr />
+
+<h1 id="education">🎓 Education</h1>
+
 <ul>
-  <li><strong>Tongji University</strong> — Ph.D. in Software Engineering (Sep 2024 – Present)</li>
-  <li><strong>UESTC</strong> — B.S. in Geographic Information Science (Sep 2020 – Jun 2024)</li>
+  <li><strong>Tongji University</strong> — Ph.D. in Software Engineering<br>
+  <em>Sep 2024 – Present</em><br>
+  Advisor: Ye Luo</li>
+  
+  <li><strong>University of Electronic Science and Technology of China (UESTC)</strong> — B.S. in Geographic Information Science and Technology<br>
+  <em>Sep 2020 – Jun 2024</em></li>
 </ul>
 
-<h2 id="publications">📄 Publications</h2>
-<div style="background: #f0f9ff; padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+<hr />
+
+<h1 id="publications">📄 Publications</h1>
+
+<div class="pub-item">
   <strong>Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
-  Liu, Y., et al. — IGARSS 2023, IEEE<br>
-  <a href="https://ieeexplore.ieee.org/document/10282535">📄 Paper</a>
+  <em>Liu, Y.</em>, Qian, J., Jiang, J., Lyu, H., Wang, Y.<br>
+  <em>IGARSS 2023, IEEE</em><br>
+  <a href="https://ieeexplore.ieee.org/document/10282535" target="_blank" style="color: #2a72d4;">📄 Paper</a>
 </div>
 
-<h2 id="internships">💼 Internships</h2>
+<hr />
+
+<h1 id="patents">💡 Patents</h1>
+
 <ul>
-  <li><strong>Research Intern</strong> — CAS, Jun 2023 – Aug 2023</li>
-  <li><strong>Data Science Intern</strong> — Huawei, Jul 2022 – Sep 2022</li>
+  <li><strong>Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
+  <em>Liu, Y.</em>, Qian, J., Lyu, H.<br>
+  China Invention Patent No. <strong>CN117011682B</strong> ✅ Granted</li>
+  
+  <li><strong>Coastline Change Detection Method Based on Multi-scale Cascade Residual CNN</strong><br>
+  Luo, X., Lai, G., <em>Liu, Y.</em>, et al.<br>
+  China Patent Application No. <strong>CN202111478910.7</strong> ⚠️ Withdrawn</li>
 </ul>
 
-<h2 id="honors">🏆 Honors</h2>
+<hr />
+
+<h1 id="internships">💼 Internships</h1>
+
 <ul>
-  <li>National Scholarship for Graduate Students (2024)</li>
-  <li>Tongji University Outstanding Graduate Award (2023)</li>
+  <li><strong>Research Intern</strong> — Institute of Remote Sensing and Digital Earth, CAS<br>
+  <em>Jun 2023 – Aug 2023</em><br>
+  Project: UAV-based power line inspection system development</li>
+  
+  <li><strong>Data Science Intern</strong> — Huawei Technologies<br>
+  <em>Jul 2022 – Sep 2022</em><br>
+  Task: Medical image preprocessing pipeline optimization</li>
 </ul>
 
-<script>
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', e => {
-    e.preventDefault();
-    document.getElementById(e.target.getAttribute('href').slice(1))?.scrollIntoView({behavior: 'smooth'});
-  });
-});
-</script>
+<hr />
+
+<h1 id="honors">🏆 Honors and Awards</h1>
+
+<ul>
+  <li><strong>National Scholarship for Graduate Students</strong> (2024)</li>
+  <li><strong>Tongji University Outstanding Graduate Award</strong> (2023)</li>
+</ul>
+
+<hr />
+
+<h1 id="contact">📧 Contact</h1>
+
+<ul class="contact-list">
+  <li><strong>Email:</strong> <a href="mailto:2411500@tongji.edu.cn">2411500@tongji.edu.cn</a></li>
+  <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=GSBfG3MAAAAJ&hl=zh-CN" target="_blank">Profile</a></li>
+  <li><strong>ORCID:</strong> <a href="https://orcid.org/0009-0002-3009-3140" target="_blank">0009-0002-3009-3140</a></li>
+  <li><strong>GitHub:</strong> <a href="https://github.com/yogurt-lyn" target="_blank">@yogurt-lyn</a></li>
+</ul>
