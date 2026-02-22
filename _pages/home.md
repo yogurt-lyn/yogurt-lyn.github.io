@@ -18,6 +18,8 @@ permalink: /
 <h2 id="about" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   👋 About Me
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <div style="background: #f8fafc; padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #4a6cf7;">
   <p style="font-size: 1.1rem; line-height: 1.6;">
     Hi! I am <strong>Yinan Liu (刘易楠)</strong>, a Ph.D. student at <strong>Tongji University</strong>, Shanghai, China.
@@ -26,11 +28,14 @@ permalink: /
     My research focuses on <strong>Medical Image Analysis</strong> and <strong>Multimodal Large Language Models (MLLM)</strong> for clinical diagnosis. I am fortunate to be advised by <strong>Ye Luo</strong>.
   </p>
 </div>
+</details>
 
 <!-- ========== Educations ========== -->
 <h2 id="educations" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   🎓 Educations
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <ul style="margin-bottom: 30px; padding-left: 20px;">
   <li style="margin-bottom: 20px; font-size: 1.1rem;">
     <strong>Tongji University</strong> — Ph.D. in Software Engineering<br>
@@ -42,12 +47,14 @@ permalink: /
     <span style="color: #64748b;">Sep 2020 – Jun 2024</span>
   </li>
 </ul>
+</details>
 
 <!-- ========== Publications & Patents ========== -->
 <h2 id="publications" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   📄 Publications & Patents
 </h2>
-
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <div style="margin-bottom: 30px;">
   <!-- Conference Paper -->
   <div style="background: #f0f9ff; border-left: 4px solid #4a6cf7; padding: 20px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
@@ -121,11 +128,14 @@ permalink: /
     </div>
   </div>
 </div>
+</details>
 
 <!-- ========== Internships ========== -->
 <h2 id="internships" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   💼 Internships
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <ul style="margin-bottom: 30px; padding-left: 20px; font-size: 1.1rem;">
   <li style="margin-bottom: 20px;">
     <strong>Research Intern</strong> — Institute of Remote Sensing and Digital Earth, CAS<br>
@@ -138,11 +148,14 @@ permalink: /
     <span style="color: #64748b;">Task: Medical image preprocessing pipeline optimization</span>
   </li>
 </ul>
+</details>
 
 <!-- ========== Honors and Awards ========== -->
 <h2 id="honors" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   🏆 Honors and Awards
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <ul style="margin-bottom: 30px; padding-left: 20px; font-size: 1.1rem;">
   <li style="margin-bottom: 15px;">
     <strong>National Scholarship for Graduate Students</strong><br>
@@ -153,11 +166,14 @@ permalink: /
     <span style="color: #64748b;">2023</span>
   </li>
 </ul>
+</details>
 
 <!-- ========== Miscellaneous ========== -->
 <h2 id="miscellaneous" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   ⚙️ Miscellaneous
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <div style="background: #f8fafc; padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #1e40af;">
   <p style="font-size: 1.1rem; line-height: 1.6;">
     • Open to collaborations on medical AI projects<br>
@@ -165,11 +181,14 @@ permalink: /
     • Active contributor to open-source medical imaging tools
   </p>
 </div>
+</details>
 
 <!-- ========== Contact ========== -->
 <h2 id="contact" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   📧 Contact
 </h2>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <div style="background: #f8fafc; padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #1e40af;">
   <p style="font-size: 1.1rem; line-height: 1.6;">
     Email: <a href="mailto:2411500@tongji.edu.cn" style="color: #1e40af; text-decoration: none;">2411500@tongji.edu.cn</a><br>
@@ -177,6 +196,7 @@ permalink: /
     ORCID: <a href="https://orcid.org/0009-0002-3009-3140" style="color: #1e40af; text-decoration: none;">0009-0002-3009-3140</a>
   </p>
 </div>
+</details>
 
 <!-- ========== Footer ========== -->
 <div style="text-align: center; color: #64748b; font-size: 0.9em; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
@@ -214,6 +234,22 @@ document.addEventListener('DOMContentLoaded', function() {
 .nav-link:hover {
   background: #f0f4f8;
   color: #1e40af;
+}
+details {
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+details summary {
+  padding: 12px 16px;
+  background: #f8fafc;
+  font-weight: 500;
+  cursor: pointer;
+}
+details[open] > summary {
+  background: #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
 }
 @media (max-width: 768px) {
   .nav-link {
