@@ -1,12 +1,11 @@
-cat > _pages/home.md << 'EOF'
 ---
 layout: page
 title: "Yinan Liu"
 permalink: /
 ---
 
-<!-- ========== Top Navigation ========== -->
-<nav style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 30px; flex-wrap: wrap; padding: 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+<!-- ========== Top Navigation (Anchor Links) ========== -->
+<nav style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 30px; flex-wrap: wrap; padding: 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
   <a href="#about" class="nav-link">About Me</a>
   <a href="#publications" class="nav-link">Publications</a>
   <a href="#educations" class="nav-link">Educations</a>
@@ -19,8 +18,8 @@ permalink: /
 <h2 id="about" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
   👋 About Me
 </h2>
-<details open>
-<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to collapse</summary>
+<details>
+<summary style="cursor: pointer; color: #64748b; font-size: 0.9rem; text-align: center; margin-bottom: 15px;">Click to expand</summary>
 <div style="background: #f8fafc; padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #4a6cf7;">
   <p style="font-size: 1.1rem; line-height: 1.6;">
     Hi! I am <strong>Yinan Liu (刘易楠)</strong>, a Ph.D. student at <strong>Tongji University</strong>, Shanghai, China.
@@ -100,7 +99,7 @@ permalink: /
     </div>
     <div style="margin-top: 12px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
       <p style="font-size: 0.95em; color: #475569;">
-        Core innovation: <strong>Node attribute design</strong> (gray value + linearity + length) in Maxtree. Applied to UAV inspection.
+        Core innovation: <strong>Node attribute design** (gray value + linearity + length) in Maxtree. Applied to UAV inspection.
       </p>
     </div>
   </div>
@@ -124,7 +123,7 @@ permalink: /
     </div>
     <div style="margin-top: 12px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
       <p style="font-size: 0.95em; color: #475569;">
-        Early-stage research on coastal monitoring AI. Introduced <strong>residual feature fusion</strong> between modules.
+        Early-stage research on coastal monitoring AI. Introduced <strong>residual feature fusion** between modules.
       </p>
     </div>
   </div>
@@ -204,6 +203,7 @@ permalink: /
   <p>Designed with ❤️ using academicpages template | All content © Yinan Liu 2025</p>
 </div>
 
+<!-- ========== Smooth Scroll Script ========== -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -216,21 +216,7 @@ document.addEventListener('DOMContentLoaded', function() {
           top: target.offsetTop - 80,
           behavior: 'smooth'
         });
-        // 自动展开目标区块
-        const details = target.nextElementSibling;
-        if (details && details.tagName === 'DETAILS') {
-          details.open = true;
-          details.querySelector('summary').textContent = 'Click to collapse';
-        }
       }
-    });
-  });
-  
-  // 切换展开/收起文本
-  document.querySelectorAll('details').forEach(detail => {
-    detail.addEventListener('toggle', function() {
-      const summary = this.querySelector('summary');
-      summary.textContent = this.open ? 'Click to collapse' : 'Click to expand';
     });
   });
 });
@@ -276,4 +262,3 @@ details[open] > summary {
   }
 }
 </style>
-EOF
