@@ -1,458 +1,210 @@
 ---
-layout: page
+layout: archive
 title: "Publications"
 permalink: /publications/
+author_profile: true
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications | Yinan Liu</title>
-  <style>
-    :root {
-      --primary: #4a6cf7;
-      --success: #059669;
-      --danger: #dc2626;
-      --light: #f8fafc;
-      --gray: #64748b;
-      --dark: #1e293b;
+<!-- Custom CSS for Publications Page -->
+<style>
+  :root {
+    --primary: #4a6cf7;
+    --success: #059669;
+    --danger: --danger: #dc2626;
+    --warning: #d97706;
+    --light: #f8fafc;
+    --gray: #64748b;
+    --dark: #1e293b;
+  }
+  
+  /* Enhanced publication entries */
+  .archive__item {
+    border-left: 4px solid var(--gray);
+    background: var(--light);
+    border-radius: 0 8px 8px 0;
+    padding: 16px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .archive__item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Conference papers */
+  .archive__item[data-category="conferences"] {
+    border-left-color: var(--primary);
+  }
+  
+  /* Patents */
+  .archive__item[data-category="patents"] {
+    border-left-color: var(--success);
+  }
+  
+  .archive__item-title {
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+    color: var(--dark);
+    font-weight: 600;
+  }
+  
+  .archive__item-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .archive__item-title a:hover {
+    color: var(--primary);
+  }
+  
+  .archive__item-excerpt {
+    color: var(--gray);
+    margin: 8px 0;
+    line-height: 1.6;
+    font-size: 0.95rem;
+  }
+  
+  .archive__item-teaser {
+    margin-top: 12px;
+  }
+  
+  /* Publication metadata */
+  .archive__item-meta {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Patent status badges */
+  .pub-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  
+  .pub-status.granted {
+    background: #dcfce7;
+    color: var(--success);
+  }
+  
+  .pub-status.pending {
+    background: #ffedd5;
+    color: var(--warning);
+  }
+  
+  .pub-status.withdrawn {
+    background: #fee2e2;
+    color: var(--danger);
+  }
+  
+  /* Category headers */
+  .page__content h2 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 8px;
+  }
+  
+  .page__content hr {
+    display: none;
+  }
+  
+  /* Google Scholar link */
+  .wordwrap {
+    background: #f1f5f9;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+  }
+  
+  .wordwrap a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .wordwrap a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .archive__item {
+      padding: 12px;
     }
     
-    body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-      line-height: 1.6;
-      color: var(--dark);
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    .container {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-    }
-    
-    .header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    
-    .header h1 {
-      color: var(--primary);
-      margin-bottom: 10px;
-      font-size: 2.2rem;
-    }
-    
-    .header p {
-      color: var(--gray);
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    
-    .tabs {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 30px;
-      flex-wrap: wrap;
-    }
-    
-    .tab-btn {
-      padding: 8px 16px;
-      border: none;
-      border-radius: 20px;
-      background: #f1f5f9;
-      color: var(--gray);
-      cursor: pointer;
-      font-weight: 500;
-      transition: all 0.3s;
+    .archive__item-title {
       font-size: 1rem;
     }
-    
-    .tab-btn:hover {
-      background: #e2e8f0;
-    }
-    
-    .tab-btn.active {
-      background: var(--primary);
-      color: white;
-    }
-    
-    .pub-item {
-      display: none;
-    }
-    
-    .pub-item.active {
-      display: block;
-      animation: fadeIn 0.4s ease;
-    }
-    
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
-    .pub-card {
-      border-left: 4px solid var(--primary);
-      background: var(--light);
-      border-radius: 0 8px 8px 0;
-      padding: 20px;
-      margin-bottom: 25px;
-      transition: all 0.3s;
-    }
-    
-    .pub-card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    }
-    
-    .pub-card.conference {
-      border-left-color: var(--primary);
-    }
-    
-    .pub-card.patent {
-      border-left-color: var(--success);
-    }
-    
-    .pub-card.withdrawn {
-      border-left-color: var(--danger);
-    }
-    
-    .pub-header {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-    
-    .pub-icon {
-      flex-shrink: 0;
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 12px;
-    }
-    
-    .pub-icon.conference {
-      background: var(--primary);
-      color: white;
-    }
-    
-    .pub-icon.patent {
-      background: var(--success);
-      color: white;
-    }
-    
-    .pub-icon.withdrawn {
-      background: var(--danger);
-      color: white;
-    }
-    
-    .pub-title {
-      font-size: 1.25rem;
-      margin: 0 0 8px 0;
-      color: var(--dark);
-    }
-    
-    .pub-meta {
-      color: var(--gray);
-      margin: 0 0 12px 0;
-      font-size: 0.95rem;
-    }
-    
-    .pub-links {
-      display: flex;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 8px;
-    }
-    
-    .pub-link {
-      color: var(--primary);
-      text-decoration: none;
-      font-size: 0.9rem;
-      transition: all 0.2s;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-    }
-    
-    .pub-link:hover {
-      color: #1e40af;
-      text-decoration: underline;
-    }
-    
-    .pub-status {
-      background: #dcfce7;
-      color: var(--success);
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 0.85rem;
-      margin-top: 8px;
-      display: inline-block;
-    }
-    
-    .pub-status.withdrawn {
-      background: #fee2e2;
-      color: var(--danger);
-    }
-    
-    .pub-abstract {
-      margin-top: 12px;
-      padding-top: 12px;
-      border-top: 1px dashed #e2e8f0;
-      font-size: 0.95rem;
-      color: var(--gray);
-    }
-    
-    .citation-modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,0.5);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 1000;
-    }
-    
-    .modal-content {
-      background: white;
-      border-radius: 8px;
-      padding: 24px;
-      max-width: 80%;
-      width: 500px;
-    }
-    
-    .modal-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 16px;
-    }
-    
-    .modal-title {
-      margin: 0;
-      font-size: 1.25rem;
-    }
-    
-    .close-btn {
-      background: none;
-      border: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-      color: var(--gray);
-    }
-    
-    .citation-text {
-      background: #f1f5f9;
-      padding: 16px;
-      border-radius: 6px;
-      overflow-x: auto;
-      white-space: pre-wrap;
-      font-family: monospace;
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-    
-    .modal-actions {
-      margin-top: 16px;
-      display: flex;
-      gap: 12px;
-    }
-    
-    .btn {
-      padding: 8px 16px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: 1rem;
-      font-weight: 500;
-    }
-    
-    .btn-primary {
-      background: var(--primary);
-      color: white;
-    }
-    
-    .btn-secondary {
-      background: #e2e8f0;
-      color: var(--gray);
-    }
-    
-    @media (max-width: 768px) {
-      .tabs {
-        flex-direction: column;
-        align-items: stretch;
-      }
-      
-      .pub-card {
-        padding: 16px;
-      }
-      
-      .pub-title {
-        font-size: 1.1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <h1>📚 Academic Publications & Patents</h1>
-      <p>Research outputs from my work on Medical AI, Remote Sensing, and Deep Learning Systems.</p>
-    </div>
-    
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="all">All</button>
-      <button class="tab-btn" data-tab="conferences">Conferences</button>
-      <button class="tab-btn" data-tab="patents">Invention Patents</button>
-    </div>
-    
-    <div class="pub-list">
-      <!-- Conference Paper -->
-      <div class="pub-item active" data-category="conferences">
-        <div class="pub-card conference">
-          <div class="pub-header">
-            <div class="pub-icon conference">📄</div>
-            <div>
-              <h3 class="pub-title">Power Line Detection Based on Maxtree and Graph Signal Processing</h3>
-              <p class="pub-meta">
-                <strong>Liu, Y.</strong>, Qian, J., Jiang, J., Lyu, H., Wang, Y.  
-                <em>IGARSS 2023</em> • IEEE International Geoscience and Remote Sensing Symposium
-              </p>
-              <div class="pub-links">
-                <a href="https://ieeexplore.ieee.org/document/10282535" target="_blank" class="pub-link">📄 Paper</a>
-                <a href="#" onclick="copyCitation('liu2023power')" class="pub-link">📋 Cite</a>
-              </div>
-            </div>
-          </div>
-          <div class="pub-abstract">
-            A novel framework using <strong>Maxtree + graph signal processing</strong> for UAV power line detection. 
-            Solves false/miss alarms via two-stage filtering (color-based + structural).
-          </div>
-        </div>
-      </div>
-      
-      <!-- Patent 1 -->
-      <div class="pub-item" data-category="patents">
-        <div class="pub-card patent">
-          <div class="pub-header">
-            <div class="pub-icon patent">💡</div>
-            <div>
-              <h3 class="pub-title">Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</h3>
-              <p class="pub-meta">
-                <strong>Liu, Y.</strong>, Qian, J., Lyu, H.  
-                China Invention Patent No. <strong>CN117011682B</strong>
-              </p>
-              <div class="pub-links">
-                <span class="pub-status">✅ Notice of Grant Received</span>
-                <a href="#" onclick="copyCitation('cn117011682b')" class="pub-link">📋 Cite</a>
-              </div>
-            </div>
-          </div>
-          <div class="pub-abstract">
-            Core innovation: <strong>Node attribute design</strong> (gray value + linearity + length) in Maxtree for robust detection. 
-            Applied to UAV inspection with reduced miss detection rate.
-          </div>
-        </div>
-      </div>
-      
-      <!-- Patent 2 -->
-      <div class="pub-item" data-category="patents">
-        <div class="pub-card withdrawn">
-          <div class="pub-header">
-            <div class="pub-icon withdrawn">⚖️</div>
-            <div>
-              <h3 class="pub-title">Coastline Change Detection Method Based on Multi-scale Cascade Residual CNN</h3>
-              <p class="pub-meta">
-                Luo, X., Lai, G., <strong>Liu, Y.</strong>, et al.  
-                China Patent Application No. <strong>CN202111478910.7</strong>
-              </p>
-              <div class="pub-links">
-                <span class="pub-status withdrawn">⚠️ Application Withdrawn</span>
-                <a href="#" onclick="copyCitation('cn2021114789107')" class="pub-link">📋 Cite</a>
-              </div>
-            </div>
-          </div>
-          <div class="pub-abstract">
-            Early-stage research on coastal monitoring AI. Introduced <strong>residual feature fusion</strong> between modules. 
-            Contributed to later granted patent (CN117011682B).
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Citation Modal -->
-    <div class="citation-modal" id="citation-modal">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title">Citation</h3>
-          <button class="close-btn" onclick="closeModal()">&times;</button>
-        </div>
-        <pre class="citation-text" id="citation-text"></pre>
-        <div class="modal-actions">
-          <button class="btn btn-primary" onclick="copyToClipboard()">Copy</button>
-          <button class="btn btn-secondary" onclick="closeModal()">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  }
+</style>
 
-  <script>
-    // Tab filtering
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        
-        const tab = btn.dataset.tab;
-        document.querySelectorAll('.pub-item').forEach(item => {
-          if (tab === 'all' || item.dataset.category === tab) {
-            item.classList.add('active');
-          } else {
-            item.classList.remove('active');
-          }
-        });
-      });
-    });
-    
-    // Citation copy
-    function copyCitation(key) {
-      let citation = '';
-      switch(key) {
-        case 'liu2023power':
-          citation = `@inproceedings{liu2023power,\n  title={Power Line Detection Based on Maxtree and Graph Signal Processing},\n  author={Liu, Yinan and Qian, Jiang and Jiang, Junzheng and Lyu, Haitao and Wang, Yong},\n  booktitle={IGARSS 2023},\n  pages={6182--6185},\n  year={2023},\n  organization={IEEE}\n}`;
-          break;
-        case 'cn117011682b':
-          citation = `@patent{cn117011682b,\n  title={Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing},\n  author={Qian, Jiang and Liu, Yinan and Lyu, Haitao},\n  number={CN117011682B},\n  year={2023},\n  assignee={University of Electronic Science and Technology of China Yangtze Delta Institute (Huzhou)}\n}`;
-          break;
-        case 'cn2021114789107':
-          citation = `@patent{cn2021114789107,\n  title={Coastline Change Detection Method Based on Multi-scale Cascade Residual Convolutional Neural Network},\n  author={Luo, Xin and Lai, Guangling and Liu, Yinan and Chang, Le and Xu, Wenbo and Jia, Haitao},\n  number={CN202111478910.7},\n  year={2021},\n  assignee={University of Electronic Science and Technology of China Yangtze Delta Institute (Huzhou)}\n}`;
-          break;
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<!-- Enhanced rendering with publication categories -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2>
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
+
+<!-- JavaScript to add category data attributes and status badges -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Add data-category attribute to each publication item
+    const pubItems = document.querySelectorAll('.archive__item');
+    pubItems.forEach(item => {
+      const title = item.querySelector('.archive__item-title');
+      if (title && title.textContent.includes('Power Line Detection')) {
+        item.setAttribute('data-category', 'conferences');
+      } else if (title && title.textContent.includes('Method and System')) {
+        item.setAttribute('data-category', 'patents');
+        // Add granted status badge
+        const meta = item.querySelector('.archive__item-meta');
+        if (meta) {
+          const statusBadge = document.createElement('span');
+          statusBadge.className = 'pub-status granted';
+          statusBadge.textContent = '✅ Notice of Grant Received';
+          meta.appendChild(statusBadge);
+        }
+      } else if (title && title.textContent.includes('Coastline Change Detection')) {
+        item.setAttribute('data-category', 'patents');
+        // Add withdrawn status badge
+        const meta = item.querySelector('.archive__item-meta');
+        if (meta) {
+          const statusBadge = document.createElement('span');
+          statusBadge.className = 'pub-status withdrawn';
+          statusBadge.textContent = '⚠️ Application Withdrawn';
+          meta.appendChild(statusBadge);
+        }
       }
-      document.getElementById('citation-text').textContent = citation;
-      document.getElementById('citation-modal').style.display = 'flex';
-    }
-    
-    function closeModal() {
-      document.getElementById('citation-modal').style.display = 'none';
-    }
-    
-    function copyToClipboard() {
-      const text = document.getElementById('citation-text').textContent;
-      navigator.clipboard.writeText(text).then(() => {
-        alert('Copied to clipboard!');
-      });
-    }
-  </script>
-</body>
-</html>
+    });
+  });
+</script>
