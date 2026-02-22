@@ -1,7 +1,10 @@
 ---
 layout: single
-title: "Yinan Liu"
 permalink: /
+author_profile: true 
+header:
+  overlay_color: "#5e616c"
+  overlay_image: "banner.jpg"
 ---
 
 <h1 id="about-me">😊 About Me</h1>
@@ -40,12 +43,12 @@ permalink: /
 
 <ul>
   <li><strong>Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
-  <em>Liu, Y.</em>, Qian, J., Lyu, H.<br>
+  Qian, J., <em>Liu, Y.</em>, Lyu, H.<br>
   China Invention Patent No. <strong>CN117011682B</strong> ✅ Granted</li>
   
   <li><strong>Coastline Change Detection Method Based on Multi-scale Cascade Residual CNN</strong><br>
   Luo, X., Lai, G., <em>Liu, Y.</em>, et al.<br>
-  China Patent Application No. <strong>CN202111478910.7</strong> ⚠️ Withdrawn</li>
+  China Patent Application No. <strong>CN202111478910.7</strong>  ✅ Granted</li>
 </ul>
 
 <hr />
