@@ -52,15 +52,7 @@ permalink: /
 
 <h1 id="internships">💼 Internships</h1>
 
-<ul>
-  <li><strong>Research Intern</strong> — Institute of Remote Sensing and Digital Earth, CAS<br>
-  <em>Jun 2023 – Aug 2023</em><br>
-  Project: UAV-based power line inspection system development</li>
-  
-  <li><strong>Data Science Intern</strong> — Huawei Technologies<br>
-  <em>Jul 2022 – Sep 2022</em><br>
-  Task: Medical image preprocessing pipeline optimization</li>
-</ul>
+
 
 <hr />
 
@@ -68,5 +60,4 @@ permalink: /
 
 <ul>
   <li><strong>National Scholarship for Graduate Students</strong> (2024)</li>
-  <li><strong>Tongji University Outstanding Graduate Award</strong> (2023)</li>
 </ul>
