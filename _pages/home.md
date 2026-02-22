@@ -1,17 +1,18 @@
-
-
 ---
 layout: page
 title: "Yinan Liu"
 permalink: /
 ---
 
-<!-- ========== Header with Banner ========== -->
-<div style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: white; padding: 40px 20px; text-align: center; border-radius: 0 0 16px 16px; margin-bottom: 30px;">
-  <img src="https://github.com/yogurt-lyn.png?size=120" alt="Yinan Liu" style="border-radius: 50%; border: 4px solid white; margin-bottom: 20px;">
-  <h1 style="margin: 0 0 10px 0; font-size: 2.2rem;">Yinan Liu (刘易楠)</h1>
-  <p style="font-size: 1.2rem; opacity: 0.9;">Ph.D. Student @ Tongji University | Medical AI & MLLM Researcher</p>
-</div>
+<!-- ========== Top Navigation (Anchor Links) ========== -->
+<nav style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 30px; flex-wrap: wrap; padding: 12px; background: #f8fafc; border-radius: 8px; border: 1px solid #e2e8f0;">
+  <a href="#about" class="nav-link">About Me</a>
+  <a href="#publications" class="nav-link">Publications</a>
+  <a href="#educations" class="nav-link">Educations</a>
+  <a href="#internships" class="nav-link">Internships</a>
+  <a href="#honors" class="nav-link">Honors and Awards</a>
+  <a href="#miscellaneous" class="nav-link">Miscellaneous</a>
+</nav>
 
 <!-- ========== About Me ========== -->
 <h2 id="about" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
@@ -91,7 +92,7 @@ permalink: /
     </div>
     <div style="margin-top: 12px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
       <p style="font-size: 0.95em; color: #475569;">
-        Core innovation: <strong>Node attribute design** (gray value + linearity + length) in Maxtree for robust detection. Applied to UAV inspection.
+        Core innovation: <strong>Node attribute design** (gray value + linearity + length) in Maxtree. Applied to UAV inspection.
       </p>
     </div>
   </div>
@@ -115,10 +116,54 @@ permalink: /
     </div>
     <div style="margin-top: 12px; padding-top: 12px; border-top: 1px dashed #cbd5e1;">
       <p style="font-size: 0.95em; color: #475569;">
-        Early-stage research on coastal monitoring AI. Introduced <strong>residual feature fusion** between modules. Contributed to later granted patent.
+        Early-stage research on coastal monitoring AI. Introduced <strong>residual feature fusion** between modules.
       </p>
     </div>
   </div>
+</div>
+
+<!-- ========== Internships ========== -->
+<h2 id="internships" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
+  💼 Internships
+</h2>
+<ul style="margin-bottom: 30px; padding-left: 20px; font-size: 1.1rem;">
+  <li style="margin-bottom: 20px;">
+    <strong>Research Intern</strong> — Institute of Remote Sensing and Digital Earth, CAS<br>
+    <span style="color: #64748b;">Jun 2023 – Aug 2023</span><br>
+    <span style="color: #64748b;">Project: UAV-based power line inspection system development</span>
+  </li>
+  <li>
+    <strong>Data Science Intern</strong> — Huawei Technologies<br>
+    <span style="color: #64748b;">Jul 2022 – Sep 2022</span><br>
+    <span style="color: #64748b;">Task: Medical image preprocessing pipeline optimization</span>
+  </li>
+</ul>
+
+<!-- ========== Honors and Awards ========== -->
+<h2 id="honors" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
+  🏆 Honors and Awards
+</h2>
+<ul style="margin-bottom: 30px; padding-left: 20px; font-size: 1.1rem;">
+  <li style="margin-bottom: 15px;">
+    <strong>National Scholarship for Graduate Students</strong><br>
+    <span style="color: #64748b;">2024</span>
+  </li>
+  <li>
+    <strong>Tongji University Outstanding Graduate Award</strong><br>
+    <span style="color: #64748b;">2023</span>
+  </li>
+</ul>
+
+<!-- ========== Miscellaneous ========== -->
+<h2 id="miscellaneous" style="margin-top: 40px; color: #1e293b; font-size: 1.8rem; display: flex; align-items: center; gap: 12px;">
+  ⚙️ Miscellaneous
+</h2>
+<div style="background: #f8fafc; padding: 25px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid #1e40af;">
+  <p style="font-size: 1.1rem; line-height: 1.6;">
+    • Open to collaborations on medical AI projects<br>
+    • Currently developing MLLM-based CXR report generation system<br>
+    • Active contributor to open-source medical imaging tools
+  </p>
 </div>
 
 <!-- ========== Contact ========== -->
@@ -137,3 +182,47 @@ permalink: /
 <div style="text-align: center; color: #64748b; font-size: 0.9em; margin-top: 40px; padding-top: 20px; border-top: 1px solid #e2e8f0;">
   <p>Designed with ❤️ using academicpages template | All content © Yinan Liu 2025</p>
 </div>
+
+<!-- ========== Smooth Scroll Script ========== -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const target = document.getElementById(targetId);
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop - 80,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+});
+</script>
+
+<style>
+.nav-link {
+  color: #205375;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  background: #f0f4f8;
+  color: #1e40af;
+}
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+  nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+</style>
