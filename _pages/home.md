@@ -1,50 +1,8 @@
 ---
 layout: single
 title: "Yinan Liu"
-excerpt: ""
 permalink: /
 ---
-
-<style>
-/* Custom homepage styles */
-.page__content h1 { 
-  border-bottom: 2px solid #e5e5e5; 
-  padding-bottom: 4px; 
-  margin-top: 1.7em;
-  margin-bottom: 0.45em;
-}
-.page__content h1:first-of-type { 
-  margin-top: 0.45em !important; 
-}
-.page__content { 
-  font-family: "Times New Roman", Times, serif; 
-  font-size: 1.00em; 
-}
-.page__content p, .page__content li, .page__content div { 
-  font-family: "Times New Roman", Times, serif; 
-}
-.page__content h1, .page__content h2, .page__content h3 { 
-  font-family: "Times New Roman", Times, serif; 
-  font-weight: 700; 
-  color: #222; 
-}
-.page__content h1 { 
-  border-left: 4px solid #2a72d4; 
-  padding-left: 12px; 
-  background: linear-gradient(to right, rgba(42,114,212,0.08), transparent); 
-  border-radius: 4px; 
-}
-.pub-item { 
-  background: #f8fafc; 
-  padding: 15px; 
-  border-radius: 8px; 
-  margin-bottom: 12px; 
-  border-left: 4px solid #4a6cf7; 
-}
-.contact-list li { 
-  margin-bottom: 6px; 
-}
-</style>
 
 <h1 id="about-me">😊 About Me</h1>
 
@@ -69,11 +27,11 @@ permalink: /
 
 <h1 id="publications">📄 Publications</h1>
 
-<div class="pub-item">
+<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
   <strong>Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
   <em>Liu, Y.</em>, Qian, J., Jiang, J., Lyu, H., Wang, Y.<br>
   <em>IGARSS 2023, IEEE</em><br>
-  <a href="https://ieeexplore.ieee.org/document/10282535" target="_blank" style="color: #2a72d4;">📄 Paper</a>
+  <a href="https://ieeexplore.ieee.org/document/10282535" target="_blank">📄 Paper</a>
 </div>
 
 <hr />
@@ -111,15 +69,4 @@ permalink: /
 <ul>
   <li><strong>National Scholarship for Graduate Students</strong> (2024)</li>
   <li><strong>Tongji University Outstanding Graduate Award</strong> (2023)</li>
-</ul>
-
-<hr />
-
-<h1 id="contact">📧 Contact</h1>
-
-<ul class="contact-list">
-  <li><strong>Email:</strong> <a href="mailto:2411500@tongji.edu.cn">2411500@tongji.edu.cn</a></li>
-  <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=GSBfG3MAAAAJ&hl=zh-CN" target="_blank">Profile</a></li>
-  <li><strong>ORCID:</strong> <a href="https://orcid.org/0009-0002-3009-3140" target="_blank">0009-0002-3009-3140</a></li>
-  <li><strong>GitHub:</strong> <a href="https://github.com/yogurt-lyn" target="_blank">@yogurt-lyn</a></li>
 </ul>
