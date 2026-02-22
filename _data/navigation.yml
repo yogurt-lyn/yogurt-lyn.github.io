@@ -9,22 +9,21 @@
 
 main:
   - title: "Homepage"
-  url: "/"
-
+    url: /
   - title: "About Me"
-    url: "#about"
-  
-  - title: "Educations"
-    url: "#educations"
+    url: /about/
 
+  - title: "Educations"
+    url: /educations/
+        
   - title: "Publications"
-    url: "#publications"
-  
+    url: /publications/
+    
   - title: "Internships"
-    url: "#internships"
-  
+    url: /internships/
+        
   - title: "Honors and Awards"
-    url: "#honors"
-  
+    url: /honors/
+        
   - title: "Miscellaneous"
-    url: "#miscellaneous"
+    url: /miscellaneous/
