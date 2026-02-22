@@ -43,7 +43,7 @@ header:
 
 <ul>
   <li><strong>Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
-  <em>Qian, J.</em>, Liu, Y., Lyu, H.<br>
+  Qian, J., <em>Liu, Y.</em>, Lyu, H.<br>
   China Invention Patent No. <strong>CN117011682B</strong> ✅ Granted</li>
   
   <li><strong>Coastline Change Detection Method Based on Multi-scale Cascade Residual CNN</strong><br>
