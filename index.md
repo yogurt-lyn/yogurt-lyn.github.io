@@ -30,9 +30,10 @@ header:
 
 <h1 id="publications">📄 Publications</h1>
 
+
 <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
   <strong>Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
-  <em>Liu, Y.</em>, Qian, J., Jiang, J., Lyu, H., Wang, Y.<br>
+  <em><strong>Yinan Liu</strong></em>, Jiang Qian, Junzheng Jiang, Haitao Lyu, Yong Wang<br>
   <em>IGARSS 2023, IEEE</em><br>
   <a href="https://ieeexplore.ieee.org/document/10282535" target="_blank">📄 Paper</a>
 </div>
@@ -43,15 +44,13 @@ header:
 
 <ul>
   <li><strong>Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
-  Qian, J., <em>Liu, Y.</em>, Lyu, H.<br>
+  Jiang Qian, <em><strong>Yinan Liu</strong></em>, Haitao Lyu<br>
   China Invention Patent No. <strong>CN117011682B</strong> ✅ Granted</li>
   
   <li><strong>Coastline Change Detection Method Based on Multi-scale Cascade Residual CNN</strong><br>
-  Luo, X., Lai, G., <em>Liu, Y.</em>, et al.<br>
-  China Patent Application No. <strong>CN202111478910.7</strong>  ✅ Granted</li>
+  Xin Luo, Guangling Lai, <em><strong>Yinan Liu</strong></em>, Le Chang, Wenbo Xu, Haitao Jia<br>
+  China Patent Application No. <strong>CN202111478910.7</strong> ✅ Granted</li>
 </ul>
-
-<hr />
 
 <h1 id="internships">💼 Internships</h1>
 
