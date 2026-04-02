@@ -61,5 +61,5 @@ header:
 <h1 id="honors">🏆 Honors and Awards</h1>
 
 <ul>
-  <li><strong>National Scholarship for Graduate Students</strong> (2024)</li>
+  <li><strong>National Scholarship for Undergraduate Students</strong> (2024)</li>
 </ul>
