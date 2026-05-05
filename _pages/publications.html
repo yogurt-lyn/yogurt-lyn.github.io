@@ -189,6 +189,8 @@ author_profile: true
       const title = item.querySelector('.archive__item-title');
       if (title && title.textContent.includes('NeoRed')) {
         item.setAttribute('data-category', 'conferences');
+      } else if (title && title.textContent.includes('Infusion to Assimilation')) {
+        item.setAttribute('data-category', 'conferences');
       } else if (title && title.textContent.includes('IP-DFRNet')) {
         item.setAttribute('data-category', 'manuscripts');
       } else if (title && title.textContent.includes('Power Line Detection')) {
