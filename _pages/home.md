@@ -31,6 +31,20 @@ header:
 <h1 id="publications">📄 Publications</h1>
 
 <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+  <strong>NeoRed: A Knowledge-Logic-Grounding Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
+  <em><strong>Yinan Liu</strong></em>, et al.<br>
+  <em>ACM Multimedia 2026 (under review)</em><br>
+  <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a>
+</div>
+
+<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+  <strong>IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images</strong><br>
+  <em><strong>Yinan Liu</strong></em>, et al.<br>
+  <em>IEEE TCSVT (under review)</em><br>
+  <a href="/publication/2026-ip-dfrnet-tcsvt/">📄 Detail page</a>
+</div>
+
+<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
   <strong>Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
   <em><strong>Yinan Liu</strong></em>, Jiang Qian, Junzheng Jiang, Haitao Lyu, Yong Wang<br>
   <em>IGARSS 2023, IEEE</em><br>

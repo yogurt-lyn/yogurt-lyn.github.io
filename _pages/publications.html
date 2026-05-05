@@ -42,6 +42,11 @@ author_profile: true
   .archive__item[data-category="patents"] {
     border-left-color: var(--success);
   }
+
+  /* Journal / preprint manuscripts */
+  .archive__item[data-category="manuscripts"] {
+    border-left-color: var(--primary);
+  }
   
   .archive__item-title {
     font-size: 1.15rem;
@@ -182,7 +187,11 @@ author_profile: true
     const pubItems = document.querySelectorAll('.archive__item');
     pubItems.forEach(item => {
       const title = item.querySelector('.archive__item-title');
-      if (title && title.textContent.includes('Power Line Detection')) {
+      if (title && title.textContent.includes('NeoRed')) {
+        item.setAttribute('data-category', 'conferences');
+      } else if (title && title.textContent.includes('IP-DFRNet')) {
+        item.setAttribute('data-category', 'manuscripts');
+      } else if (title && title.textContent.includes('Power Line Detection')) {
         item.setAttribute('data-category', 'conferences');
       } else if (title && title.textContent.includes('Method and System')) {
         item.setAttribute('data-category', 'patents');
