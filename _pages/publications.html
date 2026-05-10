@@ -10,11 +10,60 @@ author_profile: true
   :root {
     --primary: #4a6cf7;
     --success: #059669;
-    --danger: --danger: #dc2626;
+    --danger: #dc2626;
     --warning: #d97706;
     --light: #f8fafc;
     --gray: #64748b;
     --dark: #1e293b;
+  }
+
+  /* Dark theme: match default site typography and surfaces (e.g. Educations) */
+  html[data-theme="dark"] .archive__item {
+    background: #3d3d3d;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+  }
+
+  html[data-theme="dark"] .archive__item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+  }
+
+  html[data-theme="dark"] .archive__item-title,
+  html[data-theme="dark"] .archive__item-title a {
+    color: var(--global-text-color, #fff);
+  }
+
+  html[data-theme="dark"] .archive__item-title a:hover {
+    color: var(--global-link-color, #0ea1c5);
+  }
+
+  html[data-theme="dark"] .archive__item-excerpt,
+  html[data-theme="dark"] .archive__item-meta {
+    color: var(--global-text-color-light, #f3f3f3);
+    opacity: 0.9;
+  }
+
+  html[data-theme="dark"] .wordwrap {
+    background: #3d3d3d;
+    color: var(--global-text-color, #fff);
+  }
+
+  html[data-theme="dark"] .wordwrap a {
+    color: var(--global-link-color, #0ea1c5);
+  }
+
+  html[data-theme="dark"] .pub-status.granted {
+    background: rgba(16, 185, 129, 0.22);
+    color: #6ee7b7;
+  }
+
+  html[data-theme="dark"] .pub-status.pending {
+    background: rgba(245, 158, 11, 0.22);
+    color: #fcd34d;
+  }
+
+  html[data-theme="dark"] .pub-status.withdrawn {
+    background: rgba(248, 113, 113, 0.22);
+    color: #fca5a5;
   }
   
   /* Enhanced publication entries */

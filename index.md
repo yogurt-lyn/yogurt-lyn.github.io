@@ -30,28 +30,28 @@ header:
 
 <h1 id="publications">📄 Publications</h1>
 
-<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+<div class="publication-card">
   <strong>NeoRed: A Knowledge-Logic-Grounding Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>ACM Multimedia 2026 (under review)</em><br>
   <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a>
 </div>
 
-<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+<div class="publication-card">
   <strong>IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>IEEE TCSVT (under review)</em><br>
   <a href="/publication/2026-ip-dfrnet-tcsvt/">📄 Detail page</a>
 </div>
 
-<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+<div class="publication-card">
   <strong>From Infusion to Assimilation Distillation for Medical Image Segmentation</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>CVPR 2026</em><br>
   <a href="/publication/2026-cvpr-iad-medical-segmentation/">📄 Detail page</a> · <a href="https://cvpr.thecvf.com/virtual/2026/poster/36239" target="_blank">📄 CVPR</a> · <a href="https://github.com/hjklearn/IAD" target="_blank">💻 Code</a>
 </div>
 
-<div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
+<div class="publication-card">
   <strong>Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
   <em><strong>Yinan Liu</strong></em>, Jiang Qian, Junzheng Jiang, Haitao Lyu, Yong Wang<br>
   <em>IGARSS 2023, IEEE</em><br>
