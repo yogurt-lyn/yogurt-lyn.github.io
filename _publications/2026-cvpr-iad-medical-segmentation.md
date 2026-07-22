@@ -11,11 +11,11 @@ pages: ''
 publisher: 'IEEE'
 paperurl: 'https://cvpr.thecvf.com/virtual/2026/poster/36239'
 codeurl: 'https://github.com/hjklearn/IAD'
-citation: 'Yinan Liu, et al. (2026). From Infusion to Assimilation Distillation for Medical Image Segmentation. In <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>.'
+citation: 'Jiankang Hong, Yinan Liu, et al. (2026). From Infusion to Assimilation Distillation for Medical Image Segmentation. In <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>.'
 bibtext: |
-  @inproceedings{liu2026iad,
+  @inproceedings{hong2026iad,
     title={From Infusion to Assimilation Distillation for Medical Image Segmentation},
-    author={Liu, Yinan and others},
+    author={Hong, Jiankang and Liu, Yinan and others},
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2026}
   }
@@ -32,9 +32,9 @@ To address this limitation, we propose a novel medical image segmentation framew
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{liu2026iad,
+@inproceedings{hong2026iad,
   title={From Infusion to Assimilation Distillation for Medical Image Segmentation},
-  author={Liu, Yinan and others},
+  author={Hong, Jiankang and Liu, Yinan and others},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2026}
 }

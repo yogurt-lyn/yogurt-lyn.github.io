@@ -1,23 +1,23 @@
 ---
-title: "IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images"
+title: "Feature Reconfiguration With Visual prior for Medical Lesion Segmentation"
 collection: publications
 share: false
-category: manuscripts
+category: conferences
 permalink: /publication/2026-ip-dfrnet-tcsvt
-excerpt: 'Position priors before encoding suppress background and guide lesion segmentation; IP-DFRNet combines an Implicit Prior Neural Network (IPNN) with a Dual-domain Feature Refinement (DFR) module for boundary refinement across nine benchmarks.'
+excerpt: 'Position priors before encoding suppress background and guide lesion segmentation; Feature Reconfiguration With Visual prior combines an Implicit Prior Neural Network (IPNN) with a Dual-domain Feature Refinement (DFR) module for boundary refinement across nine benchmarks.'
 date: 2026-05-05
-venue: 'IEEE Transactions on Circuits and Systems for Video Technology (under review)'
+venue: 'AAAI 2027 (under review)'
 pages: ''
-publisher: 'IEEE'
+publisher: 'AAAI'
 paperurl: ''
 codeurl: ''
-citation: 'Yinan Liu, et al. (2026). IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images. Submitted to IEEE Transactions on Circuits and Systems for Video Technology.'
+citation: 'Yinan Liu, et al. (2027). Feature Reconfiguration With Visual prior for Medical Lesion Segmentation. Submitted to AAAI 2027.'
 bibtext: |
-  @misc{liu2026ipdfrnet,
-    title={IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images},
+  @misc{liu2027featurereconfig,
+    title={Feature Reconfiguration With Visual prior for Medical Lesion Segmentation},
     author={Liu, Yinan and others},
-    year={2026},
-    note={Submitted to IEEE TCSVT}
+    year={2027},
+    note={Submitted to AAAI 2027}
   }
 ---
 
@@ -32,10 +32,10 @@ Specifically, we propose an Implicit Prior-driven Dual-domain Feature Refinement
 If you use this work, please cite:
 
 ```bibtex
-@misc{liu2026ipdfrnet,
-  title={IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images},
+@misc{liu2027featurereconfig,
+  title={Feature Reconfiguration With Visual prior for Medical Lesion Segmentation},
   author={Liu, Yinan and others},
-  year={2026},
-  note={Submitted to IEEE TCSVT}
+  year={2027},
+  note={Submitted to AAAI 2027}
 }
 ```

@@ -31,22 +31,22 @@ header:
 <h1 id="publications">📄 Publications</h1>
 
 <div class="publication-card">
-  <strong>NeoRed: A Knowledge-Logic-Grounding Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
+  <strong>NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
-  <em>ACM Multimedia 2026 (under review)</em><br>
+  <em>AAAI 2027 (under review)</em><br>
   <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a>
 </div>
 
 <div class="publication-card">
-  <strong>IP-DFRNet: Implicit Prior Driven Dual-Domain Feature Refinement for Lesion Segmentation in Medical Images</strong><br>
+  <strong>Feature Reconfiguration With Visual prior for Medical Lesion Segmentation</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
-  <em>IEEE TCSVT (under review)</em><br>
+  <em>AAAI 2027 (under review)</em><br>
   <a href="/publication/2026-ip-dfrnet-tcsvt/">📄 Detail page</a>
 </div>
 
 <div class="publication-card">
   <strong>From Infusion to Assimilation Distillation for Medical Image Segmentation</strong><br>
-  <em><strong>Yinan Liu</strong></em>, et al.<br>
+  Jiankang Hong, <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>CVPR 2026</em><br>
   <a href="/publication/2026-cvpr-iad-medical-segmentation/">📄 Detail page</a> · <a href="https://cvpr.thecvf.com/virtual/2026/poster/36239" target="_blank">📄 CVPR</a> · <a href="https://github.com/hjklearn/IAD" target="_blank">💻 Code</a>
 </div>
