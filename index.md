@@ -74,6 +74,14 @@ header:
 
 <h1 id="internships">💼 Internships</h1>
 
+<p><strong>ByteDance — CapCut (Jianying)</strong> — Large Language Model Intern<br>
+<em>Jul 2026 – Sep 2026</em></p>
+
+<ul>
+  <li>Trained a spoken-video disfluency removal model to identify and remove filler words and redundant expressions, improving the efficiency of AI-assisted video editing.</li>
+  <li>Designed system prompts and used GPT-5.6 and Gemini 3.1 Pro for data annotation; built internal evaluation and training datasets covering representative spoken-video editing scenarios.</li>
+  <li>Contributed to the training of Seed2.0 Lite for EditPilot, CapCut's video-editing agent, supporting instruction understanding and automated editing workflows.</li>
+</ul>
 
 
 <hr />
