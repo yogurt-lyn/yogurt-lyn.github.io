@@ -1,0 +1,34 @@
+.internship-entry__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.internship-entry__logo {
+  flex: 0 0 auto;
+  width: 5rem;
+  height: auto;
+  margin: 0;
+  border-radius: 0.5rem;
+}
+
+.internship-entry__title {
+  margin: 0 0 0.2rem;
+  font-size: 1.15em;
+  line-height: 1.3;
+}
+
+.internship-entry__meta {
+  margin: 0;
+}
+
+@media (max-width: 30rem) {
+  .internship-entry__header {
+    align-items: flex-start;
+  }
+
+  .internship-entry__logo {
+    width: 4rem;
+  }
+}

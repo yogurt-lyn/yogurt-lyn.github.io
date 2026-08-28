@@ -74,8 +74,14 @@ header:
 
 <h1 id="internships">💼 Internships</h1>
 
-<p><strong>ByteDance — CapCut (Jianying)</strong> — Large Language Model Intern<br>
-<em>Jul 2026 – Sep 2026</em></p>
+<div class="internship-entry__header">
+  <img class="internship-entry__logo" src="/images/capcut-logo.png" alt="CapCut logo">
+  <div>
+    <p class="internship-entry__title"><strong>ByteDance — CapCut (Jianying)</strong></p>
+    <p class="internship-entry__meta">Large Language Model Intern<br>
+    <em>Jul 2026 – Sep 2026</em></p>
+  </div>
+</div>
 
 <ul>
   <li>Trained a spoken-video disfluency removal model to identify and remove filler words and redundant expressions, improving the efficiency of AI-assisted video editing.</li>

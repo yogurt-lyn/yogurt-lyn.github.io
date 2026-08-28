@@ -5,10 +5,14 @@ layout: single
 author_profile: true
 ---
 
-## ByteDance — CapCut (Jianying)
-
-**Large Language Model Intern**<br>
-*Jul 2026 – Sep 2026*
+<div class="internship-entry__header">
+  <img class="internship-entry__logo" src="/images/capcut-logo.png" alt="CapCut logo">
+  <div>
+    <p class="internship-entry__title"><strong>ByteDance — CapCut (Jianying)</strong></p>
+    <p class="internship-entry__meta">Large Language Model Intern<br>
+    <em>Jul 2026 – Sep 2026</em></p>
+  </div>
+</div>
 
 - Trained a spoken-video disfluency removal model to identify and remove filler words and redundant expressions, improving the efficiency of AI-assisted video editing.
 - Designed system prompts and used GPT-5.6 and Gemini 3.1 Pro for data annotation; built internal evaluation and training datasets covering representative spoken-video editing scenarios.
