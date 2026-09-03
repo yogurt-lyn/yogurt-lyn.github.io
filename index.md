@@ -79,7 +79,7 @@ header:
   <div>
     <p class="internship-entry__title"><strong>ByteDance — CapCut (Jianying)</strong></p>
     <p class="internship-entry__meta">Large Language Model Intern<br>
-    <em>Jul 2026 – Sep 2026</em></p>
+    <em>Jun 2026 – Sep 2026</em></p>
   </div>
 </div>
 
