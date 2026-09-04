@@ -9,7 +9,7 @@ author_profile: true
   <img class="internship-entry__logo" src="/images/capcut-logo.png" alt="CapCut logo">
   <div>
     <p class="internship-entry__title"><strong>ByteDance — CapCut (Jianying)</strong></p>
-    <p class="internship-entry__meta">Large Language Model Intern<br>
+    <p class="internship-entry__meta">Creative Agent Algorithm Intern<br>
     <em>Jun 2026 – Sep 2026</em></p>
   </div>
 </div>
