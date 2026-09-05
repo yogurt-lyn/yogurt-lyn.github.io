@@ -10,7 +10,7 @@ venue: 'AAAI 2027 (under review)'
 pages: ''
 publisher: 'AAAI'
 paperurl: 'https://arxiv.org/abs/2609.03535'
-codeurl: ''
+codeurl: 'https://github.com/yogurt-lyn/IP-DFRNet'
 citation: 'Yinan Liu, et al. (2027). Feature Reconfiguration With Visual prior for Medical Lesion Segmentation. Submitted to AAAI 2027.'
 bibtext: |
   @misc{liu2027featurereconfig,
@@ -20,6 +20,8 @@ bibtext: |
     note={Submitted to AAAI 2027}
   }
 ---
+
+[📄 Paper](https://arxiv.org/abs/2609.03535) · [💻 Code](https://github.com/yogurt-lyn/IP-DFRNet)
 
 ## Abstract
 
