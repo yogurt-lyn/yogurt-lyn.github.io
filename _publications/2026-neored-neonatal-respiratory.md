@@ -10,7 +10,7 @@ venue: 'AAAI 2027 (under review)'
 pages: ''
 publisher: 'AAAI'
 paperurl: 'https://arxiv.org/abs/2609.03527'
-codeurl: ''
+codeurl: 'https://github.com/yogurt-lyn/NeoRed'
 citation: 'Yinan Liu, et al. (2027). NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis. Submitted to AAAI 2027.'
 bibtext: |
   @misc{liu2027neored,
@@ -20,6 +20,8 @@ bibtext: |
     note={Submitted to AAAI 2027}
   }
 ---
+
+[📄 Paper](https://arxiv.org/abs/2609.03527) · [💻 Code](https://github.com/yogurt-lyn/NeoRed)
 
 ## Abstract
 

@@ -34,7 +34,7 @@ header:
   <strong>NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>AAAI 2027 (under review)</em><br>
-  <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a> · <a href="https://arxiv.org/abs/2609.03527" target="_blank" rel="noopener noreferrer">📄 arXiv</a>
+  <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a> · <a href="https://arxiv.org/abs/2609.03527" target="_blank" rel="noopener noreferrer">📄 arXiv</a> · <a href="https://github.com/yogurt-lyn/NeoRed" target="_blank" rel="noopener noreferrer">💻 Code</a>
 </div>
 
 <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
