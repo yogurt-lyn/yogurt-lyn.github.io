@@ -34,14 +34,14 @@ header:
   <strong>NeoRed: A Knowledge-Logic-Alignment Multimodal Large Language Model for Neonatal Respiratory Disease Diagnosis</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>AAAI 2027 (under review)</em><br>
-  <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a>
+  <a href="/publication/2026-neored-neonatal-respiratory/">📄 Detail page</a> · <a href="https://arxiv.org/abs/2609.03527" target="_blank" rel="noopener noreferrer">📄 arXiv</a>
 </div>
 
 <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">
   <strong>Feature Reconfiguration With Visual prior for Medical Lesion Segmentation</strong><br>
   <em><strong>Yinan Liu</strong></em>, et al.<br>
   <em>AAAI 2027 (under review)</em><br>
-  <a href="/publication/2026-ip-dfrnet-tcsvt/">📄 Detail page</a>
+  <a href="/publication/2026-ip-dfrnet-tcsvt/">📄 Detail page</a> · <a href="https://arxiv.org/abs/2609.03535" target="_blank" rel="noopener noreferrer">📄 arXiv</a>
 </div>
 
 <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 12px; border-left: 4px solid #4a6cf7;">

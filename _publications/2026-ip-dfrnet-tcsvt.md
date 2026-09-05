@@ -9,7 +9,7 @@ date: 2026-05-05
 venue: 'AAAI 2027 (under review)'
 pages: ''
 publisher: 'AAAI'
-paperurl: ''
+paperurl: 'https://arxiv.org/abs/2609.03535'
 codeurl: ''
 citation: 'Yinan Liu, et al. (2027). Feature Reconfiguration With Visual prior for Medical Lesion Segmentation. Submitted to AAAI 2027.'
 bibtext: |
