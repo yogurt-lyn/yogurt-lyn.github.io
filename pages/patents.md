@@ -8,6 +8,11 @@ permalink: /patents/
 
 <div class="patent-list">
 
+<div class="patent-item" style="margin-bottom: 25px; padding: 15px; border-left: 4px solid #205375; background: #f8f9fa; border-radius: 0 8px 8px 0;">
+  <strong>A Diagnostic System for Neonatal Respiratory Diseases</strong><br>
+  China Invention Patent Application — Accepted (已受理)
+</div>
+
 ### Patent 1: Power Line Detection Method & System  
 <div class="patent-item" style="margin-bottom: 25px; padding: 15px; border-left: 4px solid #205375; background: #f8f9fa; border-radius: 0 8px 8px 0;">
   <strong>Liu, Y.</strong>, Qian, J., Lyu, H. (2023).  

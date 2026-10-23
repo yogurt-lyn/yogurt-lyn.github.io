@@ -63,6 +63,9 @@ header:
 <h1 id="patents">💡 Patents</h1>
 
 <ul>
+  <li><strong>A Diagnostic System for Neonatal Respiratory Diseases</strong><br>
+  China Invention Patent Application — Accepted (已受理)</li>
+
   <li><strong>Method and System for Power Line Detection Based on Maxtree and Graph Signal Processing</strong><br>
   Jiang Qian, <em><strong>Yinan Liu</strong></em>, Haitao Lyu<br>
   China Invention Patent No. <strong>CN117011682B</strong> ✅ Granted</li>
