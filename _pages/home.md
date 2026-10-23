@@ -99,9 +99,9 @@ header:
 </div>
 
 <ul>
-  <li>Trained a spoken-video disfluency removal model to identify and remove filler words and redundant expressions, improving the efficiency of AI-assisted video editing.</li>
-  <li>Designed system prompts and used GPT-5.6 and Gemini 3.1 Pro for data annotation; built internal evaluation and training datasets covering representative spoken-video editing scenarios.</li>
-  <li>Contributed to the training of Seed2.0 Lite for EditPilot, CapCut's video-editing agent, supporting instruction understanding and automated editing workflows.</li>
+  <li>Trained a disfluency removal model for AI-powered spoken-video editing.</li>
+  <li>Built LLM-annotated training and evaluation datasets for video-editing agents.</li>
+  <li>Contributed to Seed2.0 Lite training for EditPilot, CapCut's video-editing agent.</li>
 </ul>
 
 
