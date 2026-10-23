@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 <div class="internship-entry__header">
+  <img class="internship-entry__logo" src="/images/shanghai-ai-lab-logo.png" alt="Shanghai AI Laboratory logo">
   <div>
     <p class="internship-entry__title"><strong>Shanghai AI Laboratory — Agent Center</strong></p>
     <p class="internship-entry__meta">Research Intern<br>
